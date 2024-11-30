@@ -8,7 +8,7 @@ High-Performance Computing by linking Fortran and Julia:
 
 configure bash with:
 
-export JULIA_NUM_THREADS=4
+export JULIA_NUM_THREADS=24 or your available threads count (4, 8, ...etc)
 
 2. Compile the Fortran Code:
 
