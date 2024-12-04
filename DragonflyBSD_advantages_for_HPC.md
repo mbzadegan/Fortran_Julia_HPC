@@ -11,6 +11,7 @@ DragonflyBSD implements a unique threading model with the introduction of its LW
 Low overhead context switching.
 Fine-grained locking mechanisms that reduce contention in parallel applications.
 Scalability across multiple CPU cores, which is critical for HPC applications running on modern multi-core processors.
+
 3. NUMA Optimization
 DragonflyBSD includes optimizations for Non-Uniform Memory Access (NUMA) architectures, which are common in HPC hardware. These optimizations help maximize memory bandwidth and reduce latency, enhancing performance for parallel programs that are memory-intensive.
 
