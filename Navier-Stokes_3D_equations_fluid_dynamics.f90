@@ -1,5 +1,4 @@
 ! A classic example in computational science is solving the 3D Navier-Stokes equations for fluid dynamics using parallel programming techniques.
-
 ! Here’s a simplified Fortran code for solving the 3D Navier-Stokes equations using finite difference methods, incorporating MPI (Message Passing Interface) for parallelism.
 
 
