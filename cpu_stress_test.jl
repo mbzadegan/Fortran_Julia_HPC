@@ -40,7 +40,7 @@ function cpu_stress_test(iterations_per_thread)
 end
 
 # Parameters
-iterations_per_thread = 10^8  # Increase for higher stress
+iterations_per_thread = 10^9  # Increase for higher stress
 
 # Run the stress test
 cpu_stress_test(iterations_per_thread)
