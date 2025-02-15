@@ -1,6 +1,6 @@
 # Run the program with Julia,
 # ```julia -t auto cpu_stress_test.jl```
-# Use -t auto to automatically use all available CPU threads.
+# Use -t auto to automatically use all available CPU Core/Threads.
 
 using LinearAlgebra
 using Random
