@@ -14,4 +14,4 @@ function sum_n_threads(n)
     return sum(s)
 end
 
-@time sum_n_threads(10^8)
+@time sum_n_threads(10^12)
