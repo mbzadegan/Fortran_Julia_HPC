@@ -5,7 +5,7 @@ Update Your Package Repository: First, ensure your system's package repository i
 `sudo pkg update`
 Install Julia via pkg: DragonflyBSD uses the pkg package manager, and Julia is typically available in the repository. You can install it by running:
 
-
+## The following steps is in developing
 `sudo pkg install julia`
 This will download and install the latest stable version of Julia available in the DragonflyBSD package repository.
 
