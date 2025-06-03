@@ -1,5 +1,11 @@
 ! This program is used to assess the randomness of a binary file from the input line
 ! This program is using multi-threading processing to achieve the result in a timely manner.
+! 
+! 1- Reads a binary file from the command line.
+! 2- Spawns threads to analyze portions of the file.
+! 3- Computes byte frequency distribution.
+! 4- Calculates Shannon entropy as a randomness measure.
+!
 ! gfortran13 -fopenmp random_qa.f90 -o random_qa
 ! ./random_qa <Your_data_file>
 
